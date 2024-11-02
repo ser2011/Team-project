@@ -96,3 +96,12 @@ div.search.container img {
 	width: 20px;
 	top: 6px;
 }
+
+#arrow {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	clip-path: polygon(0% 50%, 7% 45%, 7% 49%, 100% 49%, 100% 51%, 7% 51%, 7% 55%);
+	position: absolute;
+	cursor: pointer;
+}
